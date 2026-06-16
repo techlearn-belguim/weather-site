@@ -1,24 +1,16 @@
 /* ================================================================
    MY WEATHER APP — style.css
-   Your job: fill in the TODOs below to make the app look great!
-   The selectors and properties are already here — just add values.
 ================================================================ */
 
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
 /* ----------------------------------------------------------------
    1. GLOBAL STYLES
-   These apply to the whole page.
 ---------------------------------------------------------------- */
 
 body {
-  /* TODO: Choose a background color for the whole page */
-  background-color: F0EAD6;
-
-  /* TODO: Choose a font for the text.
-     Tip: try one from https://fonts.google.com and add a <link> in index.html */
-  font-family: "creepster" , cursive;
-
-  /* These are already done — they center everything on the page */
+  background-color: #F0EAD6;
+  font-family: 'Creepster', cursive;
   margin: 0;
   padding: 0;
   display: flex;
@@ -33,22 +25,15 @@ body {
 ---------------------------------------------------------------- */
 
 header {
-  /* TODO: Give the header a background color */
-  background-color: B53389;
-
-  /* TODO: Choose a text color that's easy to read on your background */
-  color: 96C8A2;
-
-  /* Already done */
+  background-color: #B53389;
+  color: #96C8A2;
   width: 100%;
   text-align: center;
   padding: 20px 0;
 }
 
 header h1 {
-  /* TODO: Choose a font size for the title (e.g. 2rem) */
-  font-size: /* your size here */ ;
-
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -58,7 +43,6 @@ header h1 {
 ---------------------------------------------------------------- */
 
 main {
-  /* Already set up */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,7 +57,6 @@ main {
 ---------------------------------------------------------------- */
 
 .search-box {
-  /* Already done — puts input and button side by side */
   display: flex;
   gap: 10px;
   width: 100%;
@@ -81,43 +64,27 @@ main {
 }
 
 .search-box input {
-  /* TODO: Add a border (e.g. 2px solid #cccccc) */
   border: 2px solid #cccccc;
-
-  /* TODO: Add some padding inside the input box (e.g. 10px) */
   padding: 10px;
-
-  /* TODO: Choose a border-radius to make the corners round (e.g. 8px) */
-  border-radius: auto;
-
-  /* Already done */
+  border-radius: 8px;
   flex: 1;
   font-size: 1rem;
+  font-family: 'Creepster', cursive;
 }
 
 .search-box button {
-  /* TODO: Choose a background color for the button */
-  background-color: 6C541E;
-
-  /* TODO: Choose a text color */
-  color: EEDC82;
-
-  /* TODO: Add some padding (e.g. 10px 20px) */
-  padding: 10px;
-
-  /* TODO: Make the corners rounded */
-  border-radius: auto;
-
-  /* Already done */
+  background-color: #6C541E;
+  color: #EEDC82;
+  padding: 10px 20px;
+  border-radius: 8px;
   border: none;
   font-size: 1rem;
+  font-family: 'Creepster', cursive;
   cursor: pointer;
 }
 
-/* This adds a hover effect when the mouse is over the button */
 .search-box button:hover {
-  /* TODO: Choose a slightly darker background color for hover */
-  background-color: E48400;
+  background-color: #E48400;
 }
 
 
@@ -126,9 +93,7 @@ main {
 ---------------------------------------------------------------- */
 
 .error {
-  /* TODO: Choose a color for error text — red is classic! */
-  color: 87421F;
-
+  color: #87421F;
   font-weight: bold;
 }
 
@@ -138,56 +103,35 @@ main {
 ---------------------------------------------------------------- */
 
 .weather-card {
-  /* TODO: Choose a background color for the card */
-  background-color: A2006D;
-
-  /* TODO: Add a border-radius to round the corners */
-  border-radius: auto;
-
-  /* TODO: Add some padding inside the card */
+  background-color: #A2006D;
+  border-radius: 12px;
   padding: 10px;
-
-  /* Tip: Add a box-shadow to make the card pop!
-     Example: box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
-  box-shadow: horizontal;
-
-  /* Already done */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   width: 100%;
   text-align: center;
 }
 
 #cityName {
-  /* TODO: Choose a font size for the city name */
-  font-size: 10px;
-
+  font-size: 1.6rem;
   margin: 0 0 5px 0;
 }
 
 #weatherDescription {
-  /* TODO: Choose a color for the description text */
-  color: 7F1734;
-
-  /* TODO: Make the first letter uppercase using text-transform */
-  text-transform: Capitalize;
-
+  color: #7F1734;
+  text-transform: capitalize;
   margin: 0 0 20px 0;
 }
 
 .weather-details {
-  /* Already done — puts the 3 detail boxes in a row */
   display: flex;
   justify-content: space-around;
   gap: 10px;
 }
 
 .detail {
-  /* TODO: Give each detail box a background color */
-  background-color: 856088;
-
-  /* TODO: Add padding and border-radius */
+  background-color: #856088;
   padding: 10px;
-  border-radius: auto;
-
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -196,21 +140,19 @@ main {
 
 .label {
   font-size: 0.8rem;
-  /* TODO: Choose a color for the label */
-  color: FFEF00;
+  color: #FFEF00;
 }
 
 .value {
   font-size: 1.2rem;
   font-weight: bold;
-  /* TODO: Choose a color for the value */
-  color: FFEF00; 
+  color: #FFEF00;
   margin-top: 5px;
 }
 
 
 /* ----------------------------------------------------------------
-   7. HIDDEN UTILITY CLASS — already done, don't change this!
+   7. HIDDEN UTILITY CLASS
 ---------------------------------------------------------------- */
 
 .hidden {
@@ -218,28 +160,15 @@ main {
 }
 
 
-/* ================================================================
-   8. FOOTER — YOUR TURN! 🎉
-   Add your footer styles below.
-   Your footer in index.html should have:
-     - Your name
-     - The current year
-   Style ideas:
-     - background-color
-     - color
-     - padding
-     - text-align
-     - font-size
-     - width: 100%  (so it stretches across the bottom)
-================================================================ */
+/* ----------------------------------------------------------------
+   8. FOOTER
+---------------------------------------------------------------- */
 
-/* TODO: Write your footer CSS here */
-<style.css> footer {
-    text-align: center;
-    margin-top: auto;
-    padding: 10px;
-    color: #666;
-    font-size: 14px;
-   width: 100%;
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 10px;
+  color: #666;
+  font-size: 14px;
+  width: 100%;
 }
-</style.css>
