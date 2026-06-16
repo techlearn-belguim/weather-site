@@ -12,11 +12,11 @@
 
 body {
   /* TODO: Choose a background color for the whole page */
-  background-color: /* your color here */ ;
+  background-color: F0EAD6;
 
   /* TODO: Choose a font for the text.
      Tip: try one from https://fonts.google.com and add a <link> in index.html */
-  font-family: /* your font here */ ;
+  font-family: "creepster" , cursive;
 
   /* These are already done — they center everything on the page */
   margin: 0;
@@ -34,10 +34,10 @@ body {
 
 header {
   /* TODO: Give the header a background color */
-  background-color: /* your color here */ ;
+  background-color: B53389;
 
   /* TODO: Choose a text color that's easy to read on your background */
-  color: /* your color here */ ;
+  color: 96C8A2;
 
   /* Already done */
   width: 100%;
@@ -82,13 +82,13 @@ main {
 
 .search-box input {
   /* TODO: Add a border (e.g. 2px solid #cccccc) */
-  border: /* your border here */ ;
+  border: 2px solid #cccccc;
 
   /* TODO: Add some padding inside the input box (e.g. 10px) */
-  padding: /* your value here */ ;
+  padding: 10px;
 
   /* TODO: Choose a border-radius to make the corners round (e.g. 8px) */
-  border-radius: /* your value here */ ;
+  border-radius: auto;
 
   /* Already done */
   flex: 1;
@@ -97,16 +97,16 @@ main {
 
 .search-box button {
   /* TODO: Choose a background color for the button */
-  background-color: /* your color here */ ;
+  background-color: 6C541E;
 
   /* TODO: Choose a text color */
-  color: /* your color here */ ;
+  color: EEDC82;
 
   /* TODO: Add some padding (e.g. 10px 20px) */
-  padding: /* your value here */ ;
+  padding: 10px;
 
   /* TODO: Make the corners rounded */
-  border-radius: /* your value here */ ;
+  border-radius: auto;
 
   /* Already done */
   border: none;
@@ -117,7 +117,7 @@ main {
 /* This adds a hover effect when the mouse is over the button */
 .search-box button:hover {
   /* TODO: Choose a slightly darker background color for hover */
-  background-color: /* your color here */ ;
+  background-color: E48400;
 }
 
 
@@ -127,7 +127,7 @@ main {
 
 .error {
   /* TODO: Choose a color for error text — red is classic! */
-  color: /* your color here */ ;
+  color: 87421F;
 
   font-weight: bold;
 }
@@ -139,17 +139,17 @@ main {
 
 .weather-card {
   /* TODO: Choose a background color for the card */
-  background-color: /* your color here */ ;
+  background-color: A2006D;
 
   /* TODO: Add a border-radius to round the corners */
-  border-radius: /* your value here */ ;
+  border-radius: auto;
 
   /* TODO: Add some padding inside the card */
-  padding: /* your value here */ ;
+  padding: 10px;
 
   /* Tip: Add a box-shadow to make the card pop!
      Example: box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
-  box-shadow: /* your shadow here */ ;
+  box-shadow: horizontal;
 
   /* Already done */
   width: 100%;
@@ -158,17 +158,17 @@ main {
 
 #cityName {
   /* TODO: Choose a font size for the city name */
-  font-size: /* your size here */ ;
+  font-size: 10px;
 
   margin: 0 0 5px 0;
 }
 
 #weatherDescription {
   /* TODO: Choose a color for the description text */
-  color: /* your color here */ ;
+  color: 7F1734;
 
   /* TODO: Make the first letter uppercase using text-transform */
-  text-transform: /* capitalize? uppercase? */ ;
+  text-transform: Capitalize;
 
   margin: 0 0 20px 0;
 }
@@ -182,11 +182,11 @@ main {
 
 .detail {
   /* TODO: Give each detail box a background color */
-  background-color: /* your color here */ ;
+  background-color: 856088;
 
   /* TODO: Add padding and border-radius */
-  padding: /* your value here */ ;
-  border-radius: /* your value here */ ;
+  padding: 10px;
+  border-radius: auto;
 
   display: flex;
   flex-direction: column;
@@ -197,14 +197,14 @@ main {
 .label {
   font-size: 0.8rem;
   /* TODO: Choose a color for the label */
-  color: /* your color here */ ;
+  color: FFEF00;
 }
 
 .value {
   font-size: 1.2rem;
   font-weight: bold;
   /* TODO: Choose a color for the value */
-  color: /* your color here */ ;
+  color: FFEF00; 
   margin-top: 5px;
 }
 
@@ -234,3 +234,12 @@ main {
 ================================================================ */
 
 /* TODO: Write your footer CSS here */
+<style.css> footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    color: #666;
+    font-size: 14px;
+   width: 100%;
+}
+</style.css>
