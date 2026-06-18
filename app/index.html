@@ -64,9 +64,9 @@
   <!-- ============================================================
        JAVASCRIPT — already wired up for you, don't touch this!
   ============================================================ -->
+  <script src="config.js"></script>
   <script>
-    // 🔑 Your API key from openweathermap.org
-    const API_KEY = "22c99c73992743852af29298fc21ae5f"; // ← Sign up at openweathermap.org/api and paste your key here
+    // 🔑 API key is loaded from config.js (not committed to git)
 
     const searchBtn = document.getElementById("searchBtn");
     const cityInput = document.getElementById("cityInput");
@@ -83,7 +83,7 @@
       const city = cityInput.value.trim();
       if (!city) return; // Don't do anything if the input is empty
 
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${CONFIG.API_KEY}&units=metric`;
 
       try {
         const response = await fetch(url);
