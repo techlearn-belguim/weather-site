@@ -1,3 +1,3 @@
 const CONFIG = {
-  API_KEY: "your_openweathermap_api_key_here"
+  API_KEY: "1eb6064ba8f94ab8961184024261806"
 };
